@@ -3,7 +3,7 @@ Amin Amat - FE Challenge Files
 
 I had a blast doing this challenge!
 
-The first challenge of this challenge was in first figuring out that the json data does have a delay and does not always load properly. Now I tried a few variations of loading it via jQuery as well as contmeplating using PHP but in the end (and to save time) I opted to increase the timeout so that the data would have enough time to retrive, compile and display.
+The first challenge was in figuring out that the json data does have a delay and does not always load properly. Now I tried a few variations of loading it via jQuery as well as contemplating using PHP but in the end (and to save time) I opted to increase the timeout so that the data would have enough time to retrive, compile and display.
 
 Using the blue color indicated for use with links, I set the color as a base color to then use to help accentuate other items such as the 'X' close button and the bottom border of the overlay. Keeping the colors within the same family helped with the uniformity and overlook aesthetic.
 
