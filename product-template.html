@@ -1,9 +1,11 @@
-<div class="product-container {custom_class}">
-  <a href="{url}">
-    <img src="{image}">
-    <div class="description">
-      <div class="title">{title}</div>
-      <div class="tagline">{tagline}</div>
-    </div>
-  </a>
+<div class="product-container {custom_class}" onmouseover="toggleOverlay(this,'block','1')" onmouseout="toggleOverlay(this,'none','0')">
+	<div class="close" onclick="closeProduct(this)">+</div>
+  	<a href="{url}">
+  		<div class="overlay">{overlay}</div>
+    	<img src="{image}">
+    	<div class="description">
+      		<div class="title">{title}</div>
+      		<div class="tagline">{tagline}</div>
+    	</div>
+  	</a>
 </div>
